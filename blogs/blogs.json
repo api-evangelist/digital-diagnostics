@@ -1,0 +1,21 @@
+{
+  "repo": "digital-diagnostics",
+  "feeds": [
+    {
+      "source": "https://www.digitaldiagnostics.com/feed/",
+      "feed_url": "https://www.digitaldiagnostics.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.digitaldiagnostics.com/contact/get-support/",
+      "feed_url": "https://www.digitaldiagnostics.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 50,
+  "fetched": "2026-07-25T15:00:33Z"
+}

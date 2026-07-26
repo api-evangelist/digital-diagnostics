@@ -1,7 +1,21 @@
 aid: digital-diagnostics
 name: Digital Diagnostics
-description: Digital Diagnostics is a company surfaced as a portfolio company of 8vc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Digital Diagnostics is a healthcare AI company based in Coralville, Iowa,
+  founded by Dr. Michael Abramoff. It builds autonomous artificial-intelligence
+  diagnostic systems that make a medical diagnosis at the point of care without
+  requiring a physician to interpret the result. Its flagship product,
+  LumineticsCore (formerly IDx-DR), was the first FDA-cleared autonomous AI
+  diagnostic system and detects diabetic retinopathy from fundus images in about
+  30 seconds, reimbursed under CPT code 92229 and integrated with EHR systems
+  such as Epic. A companion product, SphereDx, provides securely hosted
+  diagnostic result management. The company is a portfolio company of 8vc and is
+  researching additional indications including glaucoma, age-related macular
+  degeneration, cardiovascular, and neurodegenerative disease detection via
+  retinal imaging. Digital Diagnostics emphasizes ethical, equitable AI ("AI the
+  right way") and holds ISO 13485:2016 quality-management certification. As of
+  this profile the company publishes no public developer API, SDK, or developer
+  portal.
 url: https://raw.githubusercontent.com/api-evangelist/digital-diagnostics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +23,30 @@ x-backed-by:
 - 8vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.digitaldiagnostics.com/wp-content/uploads/2022/03/Digital-Diagnostics-Logo.png
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Medical Diagnostics
+- Diabetic Retinopathy
+- Autonomous AI
+- Ophthalmology
+- Medical Devices
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,22 @@ maintainers:
 common:
 - type: Website
   url: https://digitaldiagnostics.com
+- type: Support
+  url: https://www.digitaldiagnostics.com/contact/get-support/
+- type: Blog
+  url: https://www.digitaldiagnostics.com/resources/newsroom/
+- type: PrivacyPolicy
+  url: https://www.digitaldiagnostics.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.digitaldiagnostics.com/terms-of-use/
+- type: LLMsTxt
+  url: llms/digital-diagnostics-llms.txt
+- type: WellKnown
+  url: well-known/digital-diagnostics-well-known.yml
+- type: DomainSecurity
+  url: security/digital-diagnostics-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
